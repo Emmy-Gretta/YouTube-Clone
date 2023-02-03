@@ -114,6 +114,8 @@ img {
    padding: 12px;
    color: #fff;
    font-size: 1rem;
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
 }
 
 .search{
@@ -126,6 +128,8 @@ img {
    background-color: #313131;
    outline: none;
    border: none;
+   border-top-right-radius: 25px;
+   border-bottom-right-radius: 25px;
 }
 
 .mic{
@@ -142,15 +146,11 @@ img {
 }
 
 #video{
-   margin-right: 7px;
-}
-
-#grid{
-   margin-right: 7px;
+   margin-right: 15px;
 }
 
 #notif{
-   margin-right: 7px;
+   margin-right: 15px;
 }
 
 .mic:hover{
