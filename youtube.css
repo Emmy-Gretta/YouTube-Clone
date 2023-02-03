@@ -141,6 +141,22 @@ img {
    background-color: #181818;
 }
 
+#video{
+   margin-right: 7px;
+}
+
+#grid{
+   margin-right: 7px;
+}
+
+#notif{
+   margin-right: 7px;
+}
+
+.mic:hover{
+  background-color: #888;
+}
+
 .profile-container{
    display: flex;
    align-items: center;
@@ -253,21 +269,6 @@ img {
    transition: .5s;
    transition-delay: .0.01s;
 }
-
-/* .video-content-cover:hover{
-   transform: translateY(60px);
-   z-index: 999;
-}
-
-.video-content-cover:nth-child(4n+1):hover{
-   transform: translate(50px, 60px);
-   z-index: 999;
-}
-
-.video-content-cover:nth-child(4n+4):hover{
-   transform: translate(-30px, 60px);
-   z-index: 999;
-} */
 
 .video-content{
    margin-bottom: 25px;
