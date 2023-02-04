@@ -270,6 +270,10 @@ img {
    transition-delay: .0.01s;
 }
 
+.video-content-cover img{
+   border-radius: 9px;
+}
+
 .video-content{
    margin-bottom: 25px;
    position: relative;
@@ -279,12 +283,13 @@ img {
 
 .video-content:hover{
 transform: scale(1.4);
-width: 250px;
-height: 300px;
+width: 220px;
+height: 270px;
 z-index: 5;
 position: absolute;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 background-color: #202020;
+border-radius: 15px;
 
 }
 
@@ -324,27 +329,31 @@ background-color: #202020;
 }
 
 .title{
-   font-size: .9rem;
+   font-size: .7rem;
 }
 
 .video-content:hover .title{
-  font-size: .7rem;
+  font-size: .5rem;
 }
 
 .channel-name{
-   font-size: .8rem;
+   font-size: .7rem;
    margin-top: 10px;
    color: #aaa;
 }
 
+.video-content:hover  .channel-name{
+   font-size: .6rem;
+}
+
 .views-upload{
    display: flex;
-   font-size: .8rem;
+   font-size: .6rem;
    color: #aaa;
 }
 
 .video-content:hover .views-upload{
-   font-size: .6rem;
+   font-size: .4rem;
 }
 
 .hidden-content{
@@ -372,4 +381,5 @@ background-color: #202020;
 
 .btn i{
    font-size: .7rem;
+   margin-right: 3px;
 }
